@@ -1,0 +1,81 @@
+.auth-container {
+  width: 400px;
+  max-width: 90%;
+  margin: 50px auto;
+  padding: 30px 20px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.auth-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.auth-container form input,
+.auth-container form button {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: all 0.3s ease;
+  box-sizing: border-box; /* ensures inputs don't overflow */
+}
+
+.auth-container form input {
+  background-color: #f9f9f9;
+}
+
+.auth-container form input:focus {
+  border-color: #4caf50;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.3);
+}
+
+/* Centered, rounded submit button */
+.auth-container form button {
+  background: linear-gradient(45deg, #4caf50, #81c784);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 25px; /* fully rounded shape */
+  width: 50%;        /* narrower for centering */
+  margin: 0 auto;    /* centers button horizontally */
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.auth-container form button:hover {
+  opacity: 0.9;
+  transform: none; /* no scaling */
+}
+
+.auth-toggle {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.auth-toggle a {
+  color: #4caf50;
+  text-decoration: none;
+}
+
+.auth-toggle a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .auth-container {
+    padding: 20px;
+  }
+  
+  .auth-container form button {
+    width: 70%;
+  }
+}

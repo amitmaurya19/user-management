@@ -1,0 +1,29 @@
+.navbar {
+  background-color: #222; /* Dark background */
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center; /* Center the nav-links container */
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  margin: 10px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  max-width: 500px; /* Limits the width for better spacing */
+}
+
+.nav-links a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 15px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #81c784; /* Light green on hover */
+}
